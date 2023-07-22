@@ -1,17 +1,25 @@
 import React from 'react'
 import {
   View,
-  Text,
+  // Text,
   StyleSheet,
 } from 'react-native'
 
-import Button from '../../../components/Button/Button'
+import { Button } from '../../../components/Button/Button'
 
 export function SingInScreen() {
+
+  function handleButtonPress() {
+    console.log('Pressing')
+
+  }
+
   return (
     <View style={styles.container}>
-      <Text>Qualquer Coisa</Text>
-      <Button />
+      <Button
+        onPress={handleButtonPress}
+        title='Vamos começar'
+      />
     </View>
   )
 }

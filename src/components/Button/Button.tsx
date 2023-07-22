@@ -5,23 +5,28 @@ import {
   StyleSheet
 } from 'react-native'
 
-export default function Button() {
+interface ButtonProps {
+  title: string
+  onPress: () => void
+}
+
+export function Button({ title, onPress }: ButtonProps) {
   return (
-    <TouchableOpacity style={styles.button}>
-      <Text style={styles.buttonText}>Button</Text>
+    <TouchableOpacity onPress={onPress} style={styles.button}>
+      <Text style={styles.buttonText}>{title}</Text>
     </TouchableOpacity>
   )
 }
 
 const styles = StyleSheet.create({
   button: {
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    width: '100%',
+    height: 60,
     backgroundColor: '#FFED00',
-    borderRadius: 10,
-    margin: 10,
-    minWidth: 150,
+    borderRadius: 50,
+    padding: 16
   },
   buttonText: {
     color: '#000',
