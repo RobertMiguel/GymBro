@@ -1,11 +1,14 @@
 import React from 'react'
 import 'react-native-gesture-handler'
 
-import { SingInScreen } from './src/screens/auth/SingInScreen/SingInScreen'
-import { Routes } from './src/routes'
+import { SafeAreaView } from 'react-native'
+
+import { Router } from './src/routes/Routes'
 
 export default function App() {
 	return (
-		<SingInScreen />
+		<SafeAreaView>
+			<Router />
+		</SafeAreaView>
 	)
 }

@@ -5,10 +5,10 @@ import {
 	StyleSheet
 } from 'react-native'
 
-export function HomeScreen() {
+export function DashboardScreen() {
 	return (
 		<View style={styles.container}>
-			<Text style={styles.text}>HomeScreen</Text>
+			<Text style={styles.text}>Dashboard Screen</Text>
 		</View>
 	)
 }
