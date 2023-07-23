@@ -1,14 +1,10 @@
 import React from 'react'
-import {
-  Text,
-  View,
-  StyleSheet
-} from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 
-export function SingUpScreen() {
+export function SettingsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sing Up Screen Sing Up Screen</Text>
+      <Text style={styles.text}>Settings Screen</Text>
     </View>
   )
 }

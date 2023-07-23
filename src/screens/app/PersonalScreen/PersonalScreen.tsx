@@ -5,10 +5,11 @@ import {
   StyleSheet
 } from 'react-native'
 
-export function SingUpScreen() {
+export function PersonalScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sing Up Screen Sing Up Screen</Text>
+      <Text style={styles.text}>Personal Screen
+      </Text>
     </View>
   )
 }
@@ -16,8 +17,8 @@ export function SingUpScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
+    justifyContent: 'center',
     backgroundColor: '#000'
   },
   text: {

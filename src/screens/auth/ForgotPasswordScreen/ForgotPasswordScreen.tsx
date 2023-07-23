@@ -5,10 +5,10 @@ import {
   StyleSheet
 } from 'react-native'
 
-export function SingUpScreen() {
+export function ForgotPasswordScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sing Up Screen Sing Up Screen</Text>
+      <Text style={styles.text}>Forgot Password Screen</Text>
     </View>
   )
 }

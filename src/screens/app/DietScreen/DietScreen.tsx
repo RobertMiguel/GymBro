@@ -1,14 +1,14 @@
 import React from 'react'
 import {
-  Text,
   View,
+  Text,
   StyleSheet
 } from 'react-native'
 
-export function SingUpScreen() {
+export function DietScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sing Up Screen Sing Up Screen</Text>
+      <Text style={styles.text}>DietScreen</Text>
     </View>
   )
 }

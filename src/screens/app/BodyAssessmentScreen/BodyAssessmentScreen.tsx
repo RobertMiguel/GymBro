@@ -1,14 +1,14 @@
 import React from 'react'
 import {
-  Text,
   View,
+  Text,
   StyleSheet
 } from 'react-native'
 
-export function SingUpScreen() {
+export function BodyAssessmentScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sing Up Screen Sing Up Screen</Text>
+      <Text style={styles.text}>Body AssessmentScreen</Text>
     </View>
   )
 }
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#000'
+    background: '#000'
   },
   text: {
     color: '#fff',
