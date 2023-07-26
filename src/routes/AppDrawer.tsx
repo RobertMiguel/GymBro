@@ -14,6 +14,10 @@ export function AppDrawer() {
         name='Meu Perfil'
         component={MyProfileScreen}
       />
+      <Drawer.Screen
+        name='Configurações'
+        component={}
+      />
     </Drawer.Navigator>
   )
 }
