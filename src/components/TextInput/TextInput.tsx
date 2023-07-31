@@ -1,8 +1,10 @@
 import React from 'react'
-import { View, Text } from 'rect-native'
+import { View, Text } from 'react-native'
 
-export default TextInput() {
+export default function TextInput() {
   return (
-    <View><Text>I'm here!</Text></View>
+    <View>
+      <Text>Iam here!</Text>
+    </View>
   )
 }
